@@ -1,5 +1,10 @@
 name: Feed to social media
-on: push
+on:
+  push:
+    branches:
+    - main
+  schedule:
+  - cron:  '37 * * * *'
 
 jobs:
   Feed2SocialMedia:
