@@ -43,5 +43,5 @@ jobs:
           # blueskyPostFormat: "New post: {title}\n\n{link}"
           blueskyHandle: 'VelorouteHH'
           blueskyAppPassword: ${{ secrets.BLUESKYAPPPASSWORD }}
-          blueskyOwnerHandle: 'VelorouteHHsocial'
+          blueskyOwnerHandle: 'VelorouteHH'
           blueskyOwnerContact:  ${{ secrets.BLUESKYOWNERCONTACT }}
