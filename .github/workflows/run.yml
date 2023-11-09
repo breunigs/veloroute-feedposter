@@ -11,7 +11,7 @@ jobs:
         with:
           feedUrl: 'https://veloroute.hamburg/updates.atom'
           newestItemStrategy: 'latestDate'
-          postFormat: "{title}\n{description}\n{link}"
+          postFormat: "{title}\n{link}"
           # Mastodon settings
           # mastodonEnable: true
           # mastodonPostFormat: "New post: {title}\n\n{link}"
